@@ -1,0 +1,29 @@
+body {
+  margin: 0px auto;
+  margin-top: 250px;
+  width: 400px;
+  height: 400px;
+}
+
+div {
+  margin-top:5px;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: #2A84FF;
+  width: 400px;
+  margin-left:55px;
+}
+
+button {
+  color: #2A84FF;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.answerinput {
+  margin-top: 10px;
+}

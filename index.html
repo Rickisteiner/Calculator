@@ -1,0 +1,81 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+
+<div>
+<h2>Calculate Me</h2>
+<input id="numone" type="text">
+<input id="numtwo" type="text">
+</div>
+
+<div class=buttons>
+<button id ="add" onclick="addnum()">add</button>
+<button id="subtract" onclick="subtractnum()">subtract</button>
+<button id="multiply" onclick="multiplynum()">multiply</button>
+<button id="divide" onclick="dividenum()">divide</button>
+</div>
+
+
+<div class=answerinput>
+  <input id = "answer"></input>
+</div>
+
+
+</body>
+
+<script>
+
+var addnum = function() {
+
+  var firstNum = parseInt(document.querySelector("#numone").value);
+  var secondNum = parseInt(document.querySelector("#numtwo").value);
+  var sum = firstNum + secondNum;
+
+  answer.value = sum;
+}
+
+var subtractnum = function () {
+
+  var firstnum = parseInt(document.querySelector("#numone").value);
+  var secondnum = parseInt(document.querySelector("#numtwo").value);
+
+  var diff = firstnum-secondnum;
+  answer.value = diff;
+}
+
+var dividenum = function () {
+
+  var firstnum = parseInt(document.querySelector("#numone").value);
+  var secondnum = parseInt(document.querySelector("#numtwo").value);
+
+  if((firstnum === 0) || (secondnum === 0)){
+    alert("YOU ARE DUMB!");
+  }
+
+  var div = firstnum/secondnum;
+  answer.value = div;
+}
+
+
+
+
+var multiplynum = function () {
+
+  var firstnum = parseInt(document.querySelector("#numone").value);
+  var secondnum = parseInt(document.querySelector("#numtwo").value);
+
+  var times = firstnum*secondnum;
+  answer.value=times;
+}
+
+
+
+
+</script>
+
+</html>
