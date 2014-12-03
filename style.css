@@ -1,8 +1,9 @@
 body {
   margin: 0px auto;
   margin-top: 250px;
-  width: 400px;
+  width: 256px;
   height: 400px;
+  background-color: #50275E;
 }
 
 div {
@@ -11,13 +12,14 @@ div {
 
 h2 {
   font-family: sans-serif;
-  color: #2A84FF;
-  width: 400px;
-  margin-left:55px;
+  color: white;
+  width: 256px;
+  height: 20px;
+  text-align: center;
 }
 
 button {
-  color: #2A84FF;
+  color: black;
 }
 
 .buttons {
@@ -26,4 +28,27 @@ button {
 
 .answerinput {
   margin-top: 10px;
+}
+
+#subtract {
+  margin-left: 7px;
+}
+
+#multiply {
+  margin-left: 7px;
+}
+
+#divide {
+  margin-left: 7px;
+}
+
+input {
+  background-color: rgba(0,0,0,0.3);
+  height: 30px;
+  font-size: 12px;
+  color:white;
+}
+
+input#answer {
+  width: 256px;
 }
